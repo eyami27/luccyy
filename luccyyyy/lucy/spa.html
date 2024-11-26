@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy Hotel Website</title>
+    <style type="text/css">
+        * {
+            text-decoration: none;
+        }
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.8);
+            font-family: calibri;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: white;
+            font-weight: 500;
+            margin: 0 20px;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: goldenrod;
+            border-bottom: 3px solid goldenrod;
+        }
+
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        span {
+            color: goldenrod;
+        }
+
+        .logo a {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        li a {
+            color: white;
+            font-size: 18px;
+            font-weight: block;
+            margin-right: 25px;
+        }
+
+        button {
+            background-color: black;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 6px;
+            padding: 3px;
+        }
+
+        button a {
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .footerbottom {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footerbottom p {
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+        img {
+            width: 350px;
+            height: 350px;
+            border: 3px solid silver;
+            border-radius: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="#"><span>Lucy</span>Hotel</a></div>
+                <ul>
+                    <li><a class="current" href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="spa.html">Spa</a></li>
+                    <li><a href="restaurant.html">Restaurant</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <button class="button"><a href="book.html">Book Now</a></button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center;">SPA</h1>
+        <div>
+            <img src="../images/spa.jpg">
+            <img src="../images/spa7.jpg">
+            <img src="../images/spaaaa.jpg">
+        </div>
+     <h2>1.Facial</h2>
+     <div>
+        <img src="../images/facial.jpg" style="width: 500px; height: 400px;">
+        <img src="../images/face 1.jpg" style="width: 500px; height: 400px;">
+    </div>
+     <p style="font-size: 22px; border-radius: 15%; border: 3px solid goldenrod; width: 40%; color: darkblue;">
+        You can revitilize your complexition with our luxurious facials at Lucy.<br>Our tailored treatements nourish and
+        rejouvenate your skin.
+     </p>
+        <h2>2.Steam and Sauna</h2>
+        <div>
+            <img src="../images/spa6.jpg">
+            <img src="../images/spa4.jpg">
+            <img src="../images/spa3.jpg">
+        </div>
+        <p style="font-size: 22px; border-radius: 15%; border: 3px solid goldenrod; width: 40%; color: darkblue;">
+            Relax and detoxify in our sream and sauna at Lucy.Enjoy the smoothing heat that promotes wellnes,eases
+            tension and revitalize your body and mind.
+        </p>
+        <h2>3.Massage</h2>
+        <div>
+            <img src="../images/mass1 (1).jpg">
+            <img src="../images/spa5.jpg">
+            <img src="../images/mass 2.jpg">
+        </div>
+        <p style="font-size: 22px; border-radius: 15%; border: 3px solid goldenrod; width: 40%; color: darkblue;">You can unwind with our soothing Massage where our skilled therapists offer a range of techniques.</p><br>
+        <div style="font-size: 22px; border-radius: 15%; border: 3px solid goldenrod; width: 27%; color: darkblue; float: right;">
+        <h3 style="text-align: left; font-size: 25px; text-align: center;">Couples</h3>
+        <div>
+            <img src="../images/spa 2.jpg" style="width: 300px; height: 300px;float: center;">
+        </div>
+        <p>You can share a relaxing experiences with our treatements for couples at Lucy.</p>
+        </div>
+    </main>
+</body>
+</html>

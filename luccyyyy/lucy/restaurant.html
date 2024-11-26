@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy Hotel Website</title>
+    <style type="text/css">
+        * {
+            text-decoration: none;
+        }
+
+        .navbar {
+            background: rgba(0, 0, 0, 0.8);
+            font-family: calibri;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: white;
+            font-weight: 500;
+            margin: 0 20px;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: goldenrod;
+            border-bottom: 3px solid goldenrod;
+        }
+
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        span {
+            color: goldenrod;
+        }
+
+        .logo a {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+        }
+
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        li a {
+            color: white;
+            font-size: 18px;
+            font-weight: block;
+            margin-right: 25px;
+        }
+
+        button {
+            background-color: black;
+            margin-left: 10px;
+            border-radius: 10px;
+            padding: 6px;
+            padding: 3px;
+        }
+
+        button a {
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .footerbottom {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footerbottom p {
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            border: 4px solid silver;
+            border-radius: 30%;
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="#"><span>Lucy</span>Hotel</a></div>
+                <ul>
+                    <li><a class="current" href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="spa.html">Spa</a></li>
+                    <li><a href="restaurant.html">Restaurant</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <button class="button"><a href="book.html">Book Now</a></button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>RESTAURANT</h1>
+        <h2>DESSERTS AND DRINKS</h2>
+        <div>
+            <img src="../images/food2.jpg">
+            <img src="../images/food3.jpg">
+        </div>
+        <P style="font-size:22px; border-radius: 10%; border: 3px solid goldenrod; width: 50%; color: darkblue;">We provide almost all kinds of desert options for our customers and guests.Wheather you are craving rich
+            flavors or sweet treats,we have got the perfect options from start to finish.We also provides varites of
+            foregin foods fro monthwathering pasta dishes to decadent desserts,our cozy center will take you straight to
+            the perfect flavour experiences.</P>
+        <h2>DINING</h2>
+        <div>
+            <img src="../images/resta3.jpg">
+            <img src="../images/resta1.jpg">
+            <img src="../images/resta5.jpg">
+        </div>
+        <p style="font-size:22px; border-radius: 10%; border: 3px solid goldenrod; width: 50%; color: darkblue;">Formal dining areas,community tabels,lounge areas and private sections are all examples of our well designed
+            options.We provide our unique food and beverage selections,which will appeal to both our inhouse visitors
+            and the local populace.We are open day and night</p>
+        <h2>TRADITIONAL FOODS</h2>
+        <div>
+            <img src="../images/eth food1.jpg">
+            <img src="../images/eth food 3 (2).jpg">
+            <img src="../images/eth food 3 (1).jpg">
+        </div>
+        <P style="font-size:22px; border-radius: 10%; border: 3px solid goldenrod; width: 50%; color: darkblue;">We provides a katering services with our best menues for traditional and other options.We provides our
+            traditions dishes always with an authentic Ethiopian flavour.our special traditional options tell story of
+            tradition,culuture and love with a tireless services from our crew.</P>
+    </main>
+    <footer>
+        <div class="footerbottom">
+            <p>&copy;2024LucyHotel.All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
